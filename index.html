@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Fitness Club</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    .container {
+        color: rgb(255, 255, 47);
+        /* border: 3px solid white; */
+        margin: 96px 73px;
+        padding: 44px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+         
+        background: url('https://w0.peakpx.com/wallpaper/707/698/HD-wallpaper-bodybuilding-barbell-biceps-exercises-fitness-gym.jpg');
+      
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+
+       
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 18px;
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 17px 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    /* .navbar li a.active */
+    .navbar li a:hover
+     {
+        text-decoration: underline;
+        color: pink;
+
+
+    }
+
+
+
+    .left div {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+    }
+
+    .left img {
+        height: 110px;
+        width: 120px;
+    }
+
+    .btn {
+
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+
+
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: blanchedalmond;
+        text-decoration: underline;
+        background-color:rgb(50, 148, 205);
+
+    }
+
+    .formgroup input {
+        text-align: center;
+        width: 234px;
+        margin: 5px 123px;
+        padding: 6px 8px;
+        border-radius: 14px;
+
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 6px 189px;
+
+
+
+    }
+     .container h1{
+        text-align: center;
+     }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym4.jpg" alt="">
+            <div>Abhay Fitness</div>
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Abhay fitness gym </h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your email id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your contact number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <button class="btn">submit now</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
